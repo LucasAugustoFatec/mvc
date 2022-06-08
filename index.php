@@ -7,6 +7,10 @@
 <?php include("head.php"); ?>
 
 <body>
+    
+    <?php new Banco();?>
+    
+    
     <?php include("menu.php")?>
     <table class="table">
         <thead>
@@ -49,7 +53,7 @@
                 
                  <tr>
             <td>
-               <font size="3" face="Verdana, Arial, Helvetica, sans-serif">Quantidade de Páginas:</font>
+               <font size="3" face="Verdana, Arial, Helvetica, sans-serif">Qtd de Páginas:</font>
             </td>
             <td>
                <font size="2">
@@ -110,7 +114,7 @@
                 <tr>
                 <!--<th>Opções</th>-->
                 
-<!--                                <td>
+                               <td>
                <font size="3" face="Verdana, Arial, Helvetica, sans-serif">Opções:</font>
             </td>
             <td>
@@ -118,7 +122,7 @@
                   <input name="opcoes" type="text" id="opcoes" class="formbutton">
                </font>
             </td>
-         </tr> -->
+         </tr>
                 
                 
             </tr>
