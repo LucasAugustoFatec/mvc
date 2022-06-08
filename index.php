@@ -20,17 +20,6 @@
             <td>
                <font size="2">
                    
-                   
-<!--                     `Nome` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `Autor` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `Quantidade` int(11) NOT NULL,
-  `Preco` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `Flag` tinyint(1) NOT NULL DEFAULT 0,
-  `Data` date NOT NULL -->
-                   
-                   
-                   
-                   
                   <input name="Nome" type="text" id="Nome" class="formbutton">
                </font>
             </td>
@@ -121,7 +110,7 @@
                 <tr>
                 <!--<th>Opções</th>-->
                 
-                               <td>
+<!--                                <td>
                <font size="3" face="Verdana, Arial, Helvetica, sans-serif">Opções:</font>
             </td>
             <td>
@@ -129,7 +118,7 @@
                   <input name="opcoes" type="text" id="opcoes" class="formbutton">
                </font>
             </td>
-         </tr>
+         </tr> -->
                 
                 
             </tr>
