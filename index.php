@@ -19,7 +19,19 @@
             </td>
             <td>
                <font size="2">
-                  <input name="nome" type="text" id="nome" class="formbutton">
+                   
+                   
+<!--                     `Nome` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Autor` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Quantidade` int(11) NOT NULL,
+  `Preco` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Flag` tinyint(1) NOT NULL DEFAULT 0,
+  `Data` date NOT NULL -->
+                   
+                   
+                   
+                   
+                  <input name="Nome" type="text" id="Nome" class="formbutton">
                </font>
             </td>
          </tr>
@@ -36,7 +48,7 @@
             </td>
             <td>
                <font size="2">
-                  <input name="autor" type="text" id="autor" class="formbutton">
+                  <input name="Autor" type="text" id="Autor" class="formbutton">
                </font>
             </td>
          </tr>
@@ -52,7 +64,7 @@
             </td>
             <td>
                <font size="2">
-                  <input name="qtd_pag" type="text" id="qtd_pag" class="formbutton">
+                  <input name="Quantidade" type="text" id="Quantidade" class="formbutton">
                </font>
             </td>
          </tr>
@@ -68,7 +80,7 @@
             </td>
             <td>
                <font size="2">
-                  <input name="preco" type="text" id="preco" class="formbutton">
+                  <input name="Preco" type="text" id="Preco" class="formbutton">
                </font>
             </td>
          </tr>
@@ -85,7 +97,7 @@
             </td>
             <td>
                <font size="2">
-                  <input name="data" type="text" id="data" class="formbutton">
+                  <input name="Data" type="text" id="Data" class="formbutton">
                </font>
             </td>
          </tr>
@@ -99,7 +111,7 @@
             </td>
             <td>
                <font size="2">
-                  <input name="flag" type="text" id="flag" class="formbutton">
+                  <input name="Flag" type="text" id="Flag" class="formbutton">
                </font>
             </td>
          </tr>
@@ -110,7 +122,7 @@
                 <!--<th>Opções</th>-->
                 
                                <td>
-               <font size="3" face="Verdana, Arial, Helvetica, sans-serif">Oções:</font>
+               <font size="3" face="Verdana, Arial, Helvetica, sans-serif">Opções:</font>
             </td>
             <td>
                <font size="2">
