@@ -11,6 +11,10 @@ define ('BD_USUARIO','id18911902_root');
 define ('BD_SENHA','{\|N!=|(kc3Uyg7<');
 define ('BD_BANCO','id18911902_livraria');
 
+$conn = mysqli_connect(BD_SERVIDOR, BD_USUARIO, BD_SENHA, BD_BANCO)
+or
+die ('Ops! Não foi posível realizar a conexão...');
+
+echo "A conexão foi bem sucedida. ";
+
 ?>
-
-
