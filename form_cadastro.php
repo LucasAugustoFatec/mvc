@@ -64,3 +64,43 @@ quired autofocus>
  <label for="autor">Nome do autor</label>
  <input class="formcontrol" type="text" id="autor" name="autor" placeholder="Autor do Livro"
 required>
+
+
+
+</div>
+ </div>
+ <div class="form-group">
+ <div class="mx-auto" style="width: 500px;">
+ <label for="quantidade">Quantidade de páginas</la
+bel>
+ <input class="formcontrol" type="number" id="quantidade" name="quantidade" placeholder="Qua
+ntidade de Páginas" required>
+ </div>
+ </div>
+ <div class="form-group">
+ <div class="mx-auto" style="width: 500px;">
+ <label for="number">Valor unitário do livro</labe
+l>
+ <input class="formcontrol" type="text" id="preco" name="preco" placeholder="Preço do Livro"
+onkeypress="formatarMoeda();" required>
+ </div>
+ </div>
+ <div class="form-group">
+ <div class="mx-auto" style="width: 500px;">
+ <label for="date">Data de lançamento do livro</la
+bel>
+ <input class="formcontrol" type="date" id="data" name="data" placeholder="Data de Pulicação
+" required>
+ </div>
+ </div>
+ <div class="form-group">
+ <div class="col-lg-10" style="text-align: right;">
+ <button type="submit" class="btn btn-success" id="cadastrar">Cadastrar</button>
+ </div>
+ </div>
+ 
+ </form>
+ </div>
+ 
+</body>
+</html>
